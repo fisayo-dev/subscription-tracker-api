@@ -1,6 +1,6 @@
-import arcjetMiddleware from './arcjetMiddleware';
-import authorize from './authMiddleware';
-import errorMiddleware from './errorMiddleware';
+import arcjetMiddleware from './arcjet.middleware.js';
+import authorize from './auth.middleware.js';
+import errorMiddleware from './error.middleware.js';
 
 export { arcjetMiddleware, authorize, errorMiddleware };
 
