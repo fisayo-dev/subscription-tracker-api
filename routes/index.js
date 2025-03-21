@@ -1,6 +1,6 @@
-import authRoutes from "./auth.routes.js";
-import userRoutes from "./user.routes.js";
-import subscriptionRoutes from "./subscription.routes.js";
-import workflowRoutes from "./workflow.routes.js";
+import authRouter from "./auth.routes.js";
+import userRouter from "./user.routes.js";
+import subscriptionRouter from "./subscription.routes.js";
+import workflowRouter from "./workflow.routes.js";
 
-export {workflowRoutes, subscriptionRoutes, userRoutes, authRoutes};
+export  { workflowRouter, subscriptionRouter, userRouter, authRouter };
