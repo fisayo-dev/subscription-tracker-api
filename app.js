@@ -3,12 +3,14 @@ import cookieParser from 'cookie-parser';
 
 import { PORT } from './config/env.js';
 
+// Routes
 import userRouter from './routes/user.routes.js';
 import authRouter from './routes/auth.routes.js';
 import subscriptionRouter from './routes/subscription.routes.js';
+// Database
 import connectToDatabase from './database/mongodb.js'
-import errorMiddleware from './middlewares/error.middleware.js'
-import arcjetMiddleware from './middlewares/arcjet.middleware.js'
+// Middleware
+import { errorMiddleware, arcjetMiddleware } from './middlewares/index.js'
 import workflowRouter from './routes/workflow.routes.js'
 
 const app = express();
