@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import authorize from '../middlewares/auth.middleware.js'
+import { authorize } from '../middlewares/index.js'
 import {
   createSubscription,
   getUserSubscriptions,

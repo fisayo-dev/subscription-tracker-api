@@ -1,6 +1,6 @@
 import arcjetMiddleware from './arcjetMiddleware';
-import authMiddleware from './authMiddleware';
+import authorize from './authMiddleware';
 import errorMiddleware from './errorMiddleware';
 
-export { arcjetMiddleware, authMiddleware, errorMiddleware };
+export { arcjetMiddleware, authorize, errorMiddleware };
 
