@@ -1,4 +1,4 @@
-import Subscription from '../models/subscription.model.js'
+import { Subscription } from '../models/index.js';
 import { workflowClient } from '../config/upstash.js'
 import { SERVER_URL } from '../config/env.js'
 
